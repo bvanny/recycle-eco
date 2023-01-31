@@ -1,0 +1,40 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+
+  /*Colors*/
+  --body-color: #E5E5E5;
+  --title-color: #322153;
+  --text-color: #6C6C80;
+  --base-color: #34CB79;
+  --base-color-heavy: #2FB86E;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--body-color);
+
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--title-color);
+}
+
+/*RESET-END*/
+

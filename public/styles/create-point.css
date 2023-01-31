@@ -1,0 +1,154 @@
+#page-create-point {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#page-create-point header {
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-create-point header a {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+  color: var(--title-color);
+  font-weight: bold;
+}
+
+#page-create-point header a span {
+  width: 20px;
+  height: 21.2px;
+  display: flex;
+  background-image: url(../assets/arrow-left.svg);
+}
+
+form {
+  max-width:736px;
+  background-color: #fff;
+  padding: 6.4rem;
+  border-radius: 8px;
+  margin: 8.5rem auto;
+}
+
+form h1 {
+  font-size: 3.6rem;
+}
+
+form fieldset {
+  margin-top: 6.4rem;
+  border: 0;
+}
+
+form legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.3rem;
+  width: 100%;
+}
+
+form legend h2 {
+  font-size: 2.4rem;
+}
+
+form legend span {
+  color: var(--title-color);
+  font-size: 1.4rem;
+}
+
+form .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.4rem;
+  width: 100%;
+}
+
+form .field-group {
+  display: flex;
+}
+
+form input,
+form select {
+  background-color: #f0f0f5;
+  border: none;
+  padding: 1.6rem 2.4rem;
+  font-size: 1.6rem;
+  border-radius: 8px; 
+}
+
+form select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearence: none;
+}
+
+form label {
+  font-size: 1.4rem;
+  margin-bottom: .8rem;
+}
+
+form .field-group .field + .field {
+  margin-left: 2.4rem;
+}
+
+form button {
+  width: 26.6rem;
+  height: 5.6rem;
+  background-color: var(--base-color);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin-top: 6.4rem;
+  transition: background .3s;
+}
+
+form button:hover {
+  background-color: var(--base-color-heavy);
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.items-grid li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 9px;
+  height: 18rem;
+  list-style: none;
+  padding: 3.2rem 2.4rem 1.6rem;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.items-grid li span {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--title-color);
+  margin-top: 1.2rem;
+}
+
+.items-grid li.selected {
+  background-color: #e1faec;
+  border: 2px solid #34cb79;
+}
+
+.items-grid li img,
+.items-grid li span {
+  pointer-events: none;
+}
