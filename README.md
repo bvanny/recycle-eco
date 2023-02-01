@@ -3,8 +3,6 @@
 </h1>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
-
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
 
@@ -34,4 +32,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 
+## 📝 Licença
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://github.com/BrunoBelarminoNog/Ecoleta_NLW/blob/master/LICENSE) para saber mais.
 
